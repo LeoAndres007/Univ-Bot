@@ -58,4 +58,4 @@ def commands(bot, trigger):
     """Devuelve una lista de comandos"""
     names = ', '.join(sorted(iterkeys(bot.doc)))
     if not trigger.is_privmsg:
-        bot.reply("Los Comandos Estan En Este wiki: https://github.com/Leandro2243/UnivBot/wiki")
+        bot.reply("Los Comandos Estan En Este wiki: https://github.com/LeoAndres007/Univ-Bot/wiki/Lista-De-Comandos")
